@@ -11,6 +11,14 @@ The ```'/'``` endpoint responds to GET and returns "OK". If you POST to ```'/chi
 
 If you post with a key of "potato" you get one string back, if you post with "potato=chip" you get a different result. All other parameters return the same message.
 
+In the JSON version of this, the ```/chips``` endpoint expects a message in this format:
+
+```json
+{
+  "potato":"chip"
+}
+```
+
 Usage
 =====
 
