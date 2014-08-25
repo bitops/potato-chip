@@ -42,11 +42,7 @@ Assuming you have all the necessary Heroku deps in place this should be simple.
 
 ```shell
 heroku create
-```
-
-Add the necessary repo to your git remotes. 
-
-```shell
+# add the necessary repo to your git remotes...
 git push heroku master
 ```
 
