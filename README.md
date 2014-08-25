@@ -34,3 +34,20 @@ curl -d 'potato=chip' http://localhost:4567/chips
 ```
 
 You should see a delightful message reminding you of a famous meme.
+
+Heroku
+======
+
+Assuming you have all the necessary Heroku deps in place this should be simple.
+
+```shell
+heroku create
+```
+
+Add the necessary repo to your git remotes. 
+
+```shell
+git push heroku master
+```
+
+Now you're off and running!
