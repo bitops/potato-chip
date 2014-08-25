@@ -7,7 +7,7 @@ Really just an endpoint in case you have a local client and needs to POST someth
 
 How to use
 ==========
-The '/' endpoint responds to GET and returns "OK". If you POST to '/chips' you'l get different messages depending on the parameters you pass in.
+The ```'/'``` endpoint responds to GET and returns "OK". If you POST to ```'/chips'``` you'll get different messages depending on the parameters you pass in.
 
 If you post with a key of "potato" you get one string back, if you post with "potato=chip" you get a different result. All other parameters return the same message.
 
