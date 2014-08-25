@@ -5,6 +5,8 @@ A simple Sinatra app that can run on Heroku.
 
 Really just an endpoint in case you have a local client and needs to POST something.
 
+For a JSON variation, see [this branch](https://github.com/bitops/potato-chip/tree/json-accept-and-response).
+
 How to use
 ==========
 The ```'/'``` endpoint responds to GET and returns "OK". If you POST to ```'/chips'``` you'll get different messages depending on the parameters you pass in.
